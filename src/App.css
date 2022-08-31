@@ -1,0 +1,29 @@
+.nav-lt {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.12);
+  margin-top: 0;
+}
+
+.st{
+  /* position: fixed; */
+  margin-top: 70px;
+  left: 5vw;
+}
+
+#dropdown-basic{
+  background: transparent;
+  border: none;
+  color: #0c1a66;
+}
+
+#dropdown-basic:focus, :active{
+  box-shadow: none;
+}
+
+.select{
+  height: 35.5px;
+  border-color: #E9ECEF;
+}
+
+
+
+

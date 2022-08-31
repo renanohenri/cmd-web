@@ -1,0 +1,61 @@
+{
+  "name": "CMDTI",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.26.0",
+    "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-content-loader": "^6.2.0",
+    "react-dom": "^17.0.2",
+    "react-fullscreen-loading": "0.0.4",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^5.1.4",
+    "react-loading-overlay": "^1.0.1",
+    "react-router": "^6.2.2",
+    "react-router-dom": "^6.2.2",
+    "react-schedule-job": "^1.0.0",
+    "react-scripts": "4.0.3",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "react-scripts --max_old_space_size=2560 start",
+    "build": "react-scripts --max_old_space_size=2560 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-redux": "^7.2.8",
+    "redux": "^4.1.2"
+  }
+}
